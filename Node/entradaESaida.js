@@ -12,7 +12,7 @@ if(anonimo){
     process.stdin.on('data', data => {
         const nome = data.toString().replace('\r\n','')
 
-        process.stdout.write(`Fala menino ${nome}!!\n`)
+        process.stdout.write(`Fala jovem ${nome}!!\n`)
         process.exit()
     })
 }
